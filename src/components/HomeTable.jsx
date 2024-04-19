@@ -19,7 +19,7 @@ export function HomeTable(){
         loading 
           ? <h4>Carregando...</h4>
           : error ? 
-          <h1>Houve um erro : {errors}</h1>
+          <h1>Houve um erro : {error}</h1>
           :<table className="table table-striped table-dark">
           <thead>
             <tr>
