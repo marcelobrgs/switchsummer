@@ -1,19 +1,52 @@
-body{
+body {
   background-color: rgb(13, 63, 56);
   color: white;
   padding: 1% 2%;
-  
 }
-li{
+li {
   color: white;
   font-size: 16px;
+  background-color: rgba(64, 93, 117, 0.651);
+  padding: 8px;
+  border-style: solid;
+  border-width: 0.25px;
+  border-color: rgb(64, 108, 146);
+  margin-bottom: 2px;
 }
 
-li::marker{
-  content: '✅ ';
+li::marker {
+  content: "✅ ";
 }
 
-button{
+li:nth-child(even) {
+  background-color: rgba(75, 152, 214, 0.671);
+}
+
+button {
   margin: 2px;
   margin-top: 8px;
+}
+
+.meubotao {
+  background-color: #ade744;
+  border-radius: 0.85rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  font-weight: bold;
+  border: none;
+}
+
+.surpresa {
+  color: rgb(94, 231, 146);
+}
+
+input[type="checkbox"] {
+  margin: 10px;
+  scale: 1.35;
+}
+
+.dark-mode {
+  background-color: black;
 }

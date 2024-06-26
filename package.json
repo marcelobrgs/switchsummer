@@ -2,7 +2,7 @@
   "name": "fetch-hooks-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://marcelobrgs.github.io/table",
+  "homepage": "https://marcelobrgs.github.io/useRef",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -14,8 +14,11 @@
   },
   "dependencies": {
     "axios": "^1.6.8",
+    "primereact": "^10.6.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "react-toastify": "^10.0.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
