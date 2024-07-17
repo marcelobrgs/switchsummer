@@ -48,6 +48,28 @@ import { App } from "./PropsReact/App";
 
 import { App } from "./HelloWorld/App";
 
+import { App } from "./ModeToggler/App";
+
+import { App } from "./Promo/App";~
+
+import { App } from "./StateProps/App";
+
+
+import { App } from "./LittleLemon/App";
+
+
+import { App } from "./ContextApi/App";
+
+
+import { App } from "./useReducerWallet/App";
+
+import { App } from "./BrowserRouter/App";
+
+
+import { BrowserRouter } from "react-router-dom";
+
+import { App } from "./SwitchSummer/App";
+
 */
 
 
@@ -56,15 +78,16 @@ import ReactDOM from "react-dom/client";
 import "./index2.css";
 import "react-toastify/dist/ReactToastify.css";
 
-import { App } from "./ModeToggler/App";
+import { App } from "./MonthList/App";
 
 
-import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    {/*<React.StrictMode>*/}
-      <App />
-    {/*</React.StrictMode>*/}
-  </BrowserRouter>
+
+
+ReactDOM.createRoot(document.getElementById("root")).render (
+  
+    <React.StrictMode>
+     <App/>
+    </React.StrictMode>
+  
 );

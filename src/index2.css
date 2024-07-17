@@ -1,17 +1,42 @@
-body{
-    background-color: rgb(13, 63, 56);
-    color: white;
-    padding: 1% 2%;
-    
-  }
+body {
+  background-color: rgb(13, 63, 56);
+  color: white;
+  padding: 1% 2%;
+}
 
-  h1{
-    color: white;
-  }
-  h2{
-    color: white;
-  }
-  h3{
-    color: white;
-  }
+body.summer-mode {
+  background-color: #ade744;
+  color: black;
+  font-weight: bold;
+}
 
+.meuform {
+  background-color: #aee744;
+  
+  color: black;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 12.5px;
+}
+
+.resultado {
+  background: rgba(255, 255, 255, 0.25); /* Cor de fundo semitransparente */
+  backdrop-filter: blur(10px); /* Desfoque do fundo */
+  border-radius: 10px; /* Arredondamento das bordas */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* Sombra para criar profundidade */
+
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 12.5px;
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
