@@ -2,7 +2,7 @@
   "name": "fetch-hooks-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://marcelobrgs.github.io/buscames",
+  "homepage": "https://marcelobrgs.github.io/switchsummer",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

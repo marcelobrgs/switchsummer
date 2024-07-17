@@ -70,6 +70,9 @@ import { BrowserRouter } from "react-router-dom";
 
 import { App } from "./SwitchSummer/App";
 
+import { App } from "./MonthList/App";
+
+
 */
 
 
@@ -78,8 +81,8 @@ import ReactDOM from "react-dom/client";
 import "./index2.css";
 import "react-toastify/dist/ReactToastify.css";
 
-import { App } from "./MonthList/App";
 
+import { App } from "./SwitchSummer/App";
 
 
 
